@@ -1,0 +1,75 @@
+.pharmacy-div {
+  /* width: 153px; */
+  height: 184px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--White, #fff);
+  margin: 0 2.2px;
+  padding: 0 1px;
+
+  filter: drop-shadow(0px 2px 12px rgba(107, 134, 179, 0.25));
+}
+
+.pharmacy-image {
+  /* width: 153px; */
+  height: 92px;
+  flex-shrink: 0;
+  border-radius: 16px 16px 0px 0px;
+  background: url("./../Assets/pharmacy-image-orignal.png"),
+    lightgray 50% / cover no-repeat;
+}
+
+.pharmacy-text-box {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.pharmacy-store-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.pharmacy-store-text1 {
+  width: 97px;
+  color: var(--black-01, #0e1012);
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112%; /* 15.68px */
+  letter-spacing: 0.28px;
+}
+
+.pharmacy-store-text2 {
+  color: var(--black-02, #4a545e);
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 15.6px */
+  letter-spacing: 0.48px;
+}
+
+.rating-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+h3,
+p {
+  margin: 0;
+}

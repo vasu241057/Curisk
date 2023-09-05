@@ -1,0 +1,48 @@
+.outerdiv-caution {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cau-date {
+  color: rgba(16, 21, 44, 0.5);
+  font-family: Karla;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px; /* 150% */
+  letter-spacing: 0.2px;
+}
+
+.advice {
+  color: var(--Dark-Gray, #10152c);
+  font-family: Karla;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px; /* 115.385% */
+  letter-spacing: 0.26px;
+  margin: 5px 8px;
+}
+
+.final-remarks {
+  color: var(--Critical, #ef5f5f);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 37.5% */
+  letter-spacing: 0.32px;
+  margin: 5px 8px;
+}
+
+.outerdiv-caution {
+  background-color: #b9eeff;
+  margin: 3px;
+  border-radius: 20px;
+  height: 120px;
+  /* margin: 0 75px; */
+  padding: 10px;
+}

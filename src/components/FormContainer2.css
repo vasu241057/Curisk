@@ -1,0 +1,161 @@
+.icon4 {
+  position: absolute;
+  top: 300.22px;
+  left: 215.77px;
+  width: 5.47px;
+  height: 11.91px;
+}
+.rectangle-2-stroke {
+  position: absolute;
+  top: calc(50% - 256.5px);
+  left: calc(50% - 167.5px);
+  width: 335px;
+  height: 513px;
+}
+.base-icon5 {
+  position: absolute;
+  height: calc(100% - 17px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 17px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.captainabhimanyugmailcom {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 260px;
+  height: 28px;
+}
+.base7,
+.icon5 {
+  position: absolute;
+}
+.base7 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.icon5 {
+  top: 20px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.label-icon {
+  position: absolute;
+  top: -16.33px;
+  left: 0.9px;
+  width: 39.16px;
+  height: 10.49px;
+}
+.input-icon,
+.input4 {
+  position: relative;
+  width: 295px;
+  height: 61px;
+}
+.input-icon {
+  height: 304.02px;
+}
+.input-group {
+  position: absolute;
+  top: 48px;
+  left: calc(50% - 147.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.button-icon {
+  position: absolute;
+  height: calc(100% - 469px);
+  width: calc(100% - 40px);
+  top: 234px;
+  right: 20px;
+  bottom: 235px;
+  left: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.frame-child2,
+.vector-98-stroke {
+  position: absolute;
+  top: 365.85px;
+  left: calc(50% - 147.5px);
+  width: 295px;
+  height: 0.3px;
+}
+.frame-child2 {
+  top: 365px;
+  left: calc(50% - 35px);
+  width: 70px;
+  height: 2px;
+}
+.frame-child3 {
+  position: absolute;
+  height: calc(100% - 469px);
+  top: 429px;
+  bottom: 40px;
+  left: calc(50% - 115px);
+  max-height: 100%;
+  width: 230px;
+}
+.label-icon1,
+.label-icon2,
+.label-icon3 {
+  position: absolute;
+  top: 330.67px;
+  left: calc(50% - 111.13px);
+  width: 101.97px;
+  height: 13.01px;
+}
+.label-icon2,
+.label-icon3 {
+  left: calc(50% + 4.63px);
+  width: 38.39px;
+}
+.label-icon3 {
+  left: calc(50% + 58.77px);
+  width: 49.2px;
+}
+.frame21 {
+  position: relative;
+  width: 335px;
+  height: 513px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-nunito-sans);
+}
+@media screen and (max-width: 428px) {
+  .button-icon {
+    opacity: 0;
+  }
+  .button-icon.animate {
+    animation: 1s ease 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

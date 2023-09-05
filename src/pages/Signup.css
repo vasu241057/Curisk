@@ -1,0 +1,140 @@
+.please-fill-out,
+.title {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 900;
+  display: inline-block;
+  width: 335px;
+}
+.please-fill-out {
+  font-size: var(--font-size-sm);
+  width: 275px;
+}
+.title-parent {
+  position: absolute;
+  top: 130px;
+  left: calc(50% - 167.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  font-size: 24px;
+}
+.login {
+  color: var(--primary-blue);
+}
+.label {
+  position: absolute;
+  top: 731px;
+  left: calc(50% - 114.5px);
+  letter-spacing: 0.04em;
+  font-weight: 900;
+  cursor: pointer;
+  color: #757f8e;
+}
+.icon,
+.input-value {
+  position: absolute;
+  display: none;
+}
+.icon {
+  top: 20px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+}
+.input-value {
+  top: 12.5px;
+  left: 15px;
+  letter-spacing: 0.04em;
+  font-weight: 900;
+}
+.base1 {
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--grayscale-100-white);
+  border: 0.3px solid var(--stroke1);
+  box-sizing: border-box;
+  width: 295.3px;
+  height: 44.3px;
+}
+.base,
+.label1 {
+  position: absolute;
+  left: 0;
+}
+.base {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.label1 {
+  top: -20px;
+  letter-spacing: 0.04em;
+  font-weight: 900;
+  color: var(--color-black);
+}
+.input {
+  position: relative;
+  width: 295px;
+  height: 61px;
+}
+.input-parent {
+  position: absolute;
+  top: 263px;
+  left: calc(50% - 147.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  text-align: left;
+  color: var(--color-darkslategray-100);
+}
+.label2 {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 900;
+}
+.button {
+  position: absolute;
+  height: calc(100% - 768px);
+  width: calc(100% - 80px);
+  top: 647px;
+  right: 40px;
+  bottom: 121px;
+  left: 40px;
+  border-radius: var(--br-9xs);
+  background-color: var(--brand-blue);
+  display: flex;
+  flex-direction: column;
+  padding: 0 121.5px;
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: center;
+  color: var(--grayscale-100-white);
+}
+.signup {
+  position: relative;
+  background-color: var(--grayscale-100-white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-nunito-sans);
+}
+
+.css-binzgt {
+  position: absolute;
+  top: 180px;
+  max-width: 90%;
+}

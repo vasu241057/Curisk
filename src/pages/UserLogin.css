@@ -1,0 +1,139 @@
+.status-bar-icon {
+  position: relative;
+  width: 375px;
+  height: 44px;
+}
+.base-icon {
+  position: absolute;
+  top: 10.6px;
+  left: 0;
+  width: 206px;
+  height: 27.43px;
+  opacity: 0;
+}
+.bank {
+  font-weight: 300;
+  color: var(--grayscale-100-white);
+}
+.key {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 43.4px;
+  height: 13.71px;
+}
+.logo,
+.logo-child,
+.title1 {
+  position: absolute;
+  top: 0.01px;
+  left: 26.09px;
+  width: 13.46px;
+  height: 1.24px;
+}
+.logo,
+.title1 {
+  top: 17.45px;
+  left: 81.85px;
+  width: 43.4px;
+  height: 13.71px;
+  display: none;
+}
+.title1 {
+  top: 18.08px;
+  left: 91.19px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.04em;
+  line-height: 20px;
+  font-family: var(--font-nunito-sans);
+  color: var(--black);
+  width: 24.17px;
+  height: 12.47px;
+}
+.icon-avatar {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+.left-side-icons {
+  position: absolute;
+  top: 10.6px;
+  left: 0;
+  width: 35.16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.image-22-08-23-at-10-1 {
+  position: absolute;
+  top: 0;
+  left: 48.34px;
+  width: 109.87px;
+  height: 48px;
+  object-fit: cover;
+}
+.nav-field,
+.title-icon {
+  position: relative;
+  width: 206px;
+  height: 48px;
+}
+.title-icon {
+  width: 223.7px;
+  height: 22.3px;
+}
+.please-fill-out-the-below-deta {
+  position: relative;
+  width: 252.59px;
+  height: 32.01px;
+}
+.frame6,
+.frame7,
+.title-group,
+.user-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-group {
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frame6,
+.frame7,
+.user-login {
+  overflow: hidden;
+}
+.frame7 {
+  width: 335px;
+  height: 626px;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  gap: 48px;
+}
+.frame6,
+.user-login {
+  justify-content: center;
+}
+.frame6 {
+  width: 335px;
+  height: 704px;
+  flex-shrink: 0;
+  gap: 30px;
+}
+.user-login {
+  position: relative;
+  background-color: var(--grayscale-100-white);
+  width: 100%;
+  height: 812px;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-khaki);
+  font-family: var(--font-inter);
+}

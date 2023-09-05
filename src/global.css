@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+  height: 100vh;
+}
+:root {
+  /* fonts */
+  --font-mitr: Mitr;
+  --font-nunito-sans: "Nunito Sans";
+  --font-inter: Inter;
+  --font-reem-kufi: "Reem Kufi";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-3xl: 22px;
+  --font-size-lgi: 19px;
+  --font-size-mid: 17px;
+  --font-size-mini: 15px;
+  --font-size-8xl: 27px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --primary-p-blue: #11b3cf;
+  --color-skyblue-100: rgba(89, 212, 233, 0.1);
+  --grayscale-100-white: #fff;
+  --color-black: #000;
+  --color-silver-100: #c4c4c4;
+  --stroke: #c6c2c0;
+  --stroke1: #b3bac6;
+  --gray-8: #a5a3a9;
+  --black-03: #7b8d9e;
+  --brand-blue: #1c6ba4;
+  --color-goldenrod-100: #e09f1f;
+  --color-goldenrod-200: rgba(224, 159, 31, 0.14);
+  --black: #1e1410;
+  --color-gray-100: #141023;
+  --black-01: #0e1012;
+  --color-gray-200: rgba(19, 19, 19, 0);
+  --color-gray-300: rgba(20, 16, 35, 0.35);
+  --color-gray-400: rgba(255, 255, 255, 0.14);
+  --grayscale-200: #eee;
+  --color-darkslategray-100: #1a4563;
+  --color-darkslategray-200: #253141;
+  --color-khaki: #eefc79;
+  --primary-blue: #0060f7;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-sm: 14px;
+  --gap-xs: 12px;
+  --gap-9xs: 4px;
+  --gap-smi: 13px;
+  --gap-12xs: 1px;
+  --gap-3xl: 22px;
+  --gap-6xs: 7px;
+  --gap-8xs: 5px;
+  --gap-10xs: 3px;
+  --gap-199xl: 218px;
+  --gap-83xl: 102px;
+  --gap-200xl: 219px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-7xs: 6px;
+  --padding-11xl: 30px;
+  --padding-sm: 14px;
+  --padding-9xs: 4px;
+  --padding-lgi-1: 19.1px;
+  --padding-2xs: 11px;
+  --padding-mid: 17px;
+  --padding-2xs-9: 10.9px;
+  --padding-12xs-7: 0.7px;
+  --padding-11xs: 2px;
+  --padding-base: 16px;
+  --padding-mini-5: 14.5px;
+  --padding-lgi-9: 19.9px;
+
+  /* border radiuses */
+  --br-xs: 12px;
+  --br-lg: 18px;
+  --br-9xl: 28px;
+  --br-7xl: 26px;
+  --br-10xs-7: 2.7px;
+  --br-11xs-3: 1.3px;
+  --br-xl: 20px;
+  --br-9xs: 4px;
+}
+
+.root {
+  height: 100vh;
+}

@@ -1,0 +1,190 @@
+@media (max-width: 767px) {
+  /* Your mobile-specific styles go here */
+  body {
+    font-size: 16px;
+    align-items: center; /* Adjust font size for better readability on smaller screens */
+  }
+
+  .header {
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+
+  .menu {
+    display: none; /* Hide the menu on mobile devices */
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .footer {
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+}
+
+.main-div {
+  margin: 30px 0 0;
+}
+
+.outer-div1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-back-text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.back-icon1 {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid var(--black-04, #d7deea);
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.report-text {
+  display: flex;
+  justify-content: center;
+}
+
+.ai-report-desc {
+  color: var(--black-02, #4a545e);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%; /* 20.25px */
+  letter-spacing: 0.15px;
+  width: 272px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.upload-box {
+  width: 272px;
+  height: 168px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #e4e9f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.real-upload-box {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 2px 12px 0px rgba(107, 134, 179, 0.25);
+}
+
+.upload-box-outer {
+  display: flex;
+  justify-content: center;
+}
+
+.upload-box-real {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+
+  /* s11 */
+  box-shadow: 0px 2px 12px 0px rgba(107, 134, 179, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: none;
+}
+
+.button-upload {
+  --color: #1c6ba4;
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  border-radius: 0.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+  width: 272px;
+  height: 56px;
+}
+
+.button-upload::before,
+.button-upload::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+}
+
+.button-upload::before {
+  top: -1em;
+  left: -1em;
+}
+
+.button-upload::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+.button-upload:hover::before,
+.button-upload:hover::after {
+  height: 410px;
+  width: 410px;
+}
+
+.button-upload:hover {
+  color: rgb(10, 25, 30);
+}
+
+.button-upload:active {
+  filter: brightness(0.8);
+}
+
+.button-outer {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.Pharmacy-heading {
+  color: var(--black-01, #0e1012);
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%; /* 27px */
+  letter-spacing: 0.2px;
+  margin: 20px 0 20px 10px;
+}

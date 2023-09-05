@@ -1,0 +1,160 @@
+.div,
+.tue,
+.upcoming-appointments-schedule {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 135%;
+}
+.div,
+.tue {
+  font-weight: 800;
+}
+.tue {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+.frame14,
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.parent {
+  align-items: center;
+  gap: var(--gap-9xs);
+}
+.frame14 {
+  border-radius: var(--br-7xl);
+  background-color: var(--color-gray-400);
+  width: 71.46px;
+  height: 99.03px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0 19.13818359375px;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.interface-more-horizontal {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.dr-minoka-galappaththi {
+  position: relative;
+  font-size: var(--font-size-lgi);
+  letter-spacing: 0.01em;
+  line-height: 135%;
+  display: inline-block;
+  width: 157px;
+  height: 49px;
+  flex-shrink: 0;
+}
+.am-parent,
+.frame15 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.am-parent {
+  width: 157px;
+  height: 69.86px;
+  align-items: flex-start;
+  gap: var(--gap-12xs);
+  margin-top: -5px;
+}
+.frame15 {
+  width: 159.5px;
+  height: 83.96px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  font-size: var(--font-size-sm);
+}
+.frame-parent1,
+.frame16 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.frame-parent1 {
+  border-radius: var(--br-9xl);
+  background-color: var(--brand-blue);
+  width: 282px;
+  height: 120.73px;
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-mid) 10.89324951171875px;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.frame16 {
+  position: absolute;
+  top: 11.15px;
+  left: 11.69px;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-goldenrod-100);
+  width: 71.46px;
+  height: 99.03px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 19.13818359375px;
+  justify-content: center;
+}
+.frame-wrapper {
+  position: relative;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-goldenrod-200);
+  width: 63px;
+  height: 120.73px;
+}
+.frame-container,
+.upcoming-appointments-schedule-parent {
+  width: 357px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-container {
+  height: 120.73px;
+  flex-direction: row;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-3xl);
+  color: var(--grayscale-100-white);
+}
+.upcoming-appointments-schedule-parent {
+  height: 157.73px;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.see-all {
+  position: absolute;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.01em;
+  line-height: 135%;
+  color: var(--brand-blue);
+  /* margin-top: -153px; */
+  right: 20px;
+}
+.frame12,
+.frame13 {
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+}
+.frame13 {
+  width: 357px;
+  height: 157.73px;
+  flex-shrink: 0;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  /* justify-content: flex-end; */
+}
+.frame12 {
+  width: 375px;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--black-01);
+  font-family: var(--font-nunito-sans);
+}
